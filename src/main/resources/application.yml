@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: proposta-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/propostadb
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
